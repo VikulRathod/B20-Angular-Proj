@@ -1,0 +1,90 @@
+﻿{
+  "CodeGenerationMode": 2,
+  "ContextClassName": "AppDbContext",
+  "ContextNamespace": null,
+  "DefaultDacpacSchema": null,
+  "FilterSchemas": false,
+  "IncludeConnectionString": false,
+  "ModelNamespace": null,
+  "OutputContextPath": ".\/",
+  "OutputPath": "Entities",
+  "ProjectRootNamespace": "edTechSpark.Core",
+  "Schemas": null,
+  "SelectedHandlebarsLanguage": 0,
+  "SelectedToBeGenerated": 0,
+  "Tables": [
+    {
+      "Name": "[dbo].[CartItems]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[Carts]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[Categories]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[CourseLessons]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[Courses]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[CourseTopics]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[Mentors]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[OrderItems]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[Orders]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[PaymentDetails]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[Roles]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[Subscriptions]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[UserRoles]",
+      "ObjectType": 0
+    },
+    {
+      "Name": "[dbo].[Users]",
+      "ObjectType": 0
+    }
+  ],
+  "UiHint": ".\\SQLEXPRESS.edTechSpark",
+  "UseBoolPropertiesWithoutDefaultSql": false,
+  "UseDatabaseNames": false,
+  "UseDbContextSplitting": false,
+  "UseFluentApiOnly": true,
+  "UseHandleBars": false,
+  "UseInflector": true,
+  "UseLegacyPluralizer": false,
+  "UseManyToManyEntity": false,
+  "UseNoConstructor": false,
+  "UseNoDefaultConstructor": false,
+  "UseNoNavigations": false,
+  "UseNoObjectFilter": false,
+  "UseNodaTime": false,
+  "UseNullableReferences": false,
+  "UseSchemaFolders": false,
+  "UseSpatial": false
+}

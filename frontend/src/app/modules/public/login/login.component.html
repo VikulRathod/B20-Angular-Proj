@@ -1,0 +1,29 @@
+<h2>Login</h2>
+<hr />
+<div class="col-sm-6">
+    <form #form="ngForm" [formGroup]="userForm" (ngSubmit)="LoginUser()">
+        <div class="mb-3 text-danger">
+            {{error}}
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Username</label>
+            <input type="text" name="username" class="form-control" formControlName="username" />
+            <div *ngIf="userForm.controls['username'].errors && (userForm.controls['username'].dirty || form.submitted)"
+                class="text-danger">
+                <span [hidden]="!userForm.controls['username'].errors['required']">Please Enter username</span>
+                <span [hidden]="!userForm.controls['username'].errors['email']">Please Enter correct email</span>
+            </div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Password</label>
+            <input type="password" name="password" class="form-control" formControlName="password">
+            <div *ngIf="userForm.controls['password'].errors && (userForm.controls['password'].dirty || form.submitted)"
+                class="text-danger">
+                <span [hidden]="!userForm.controls['password'].errors['required']">Please Enter password</span>
+            </div>
+        </div>
+        <div class="mb-3">
+            <input type="submit" value="Login" class="btn btn-primary" />
+        </div>
+    </form>
+</div>
